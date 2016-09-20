@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+.menu-dropdown
+{
+	position:relative;
+	display: inline-block;
+}
+
+.menu-abtus-dropdown-content
+{
+	
+	display:none;
+	position:absolute;
+	left:-106px;
+	background-color:#ffffff;
+	min-width:760px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 12px 16px;
+	z-index:1;
+}
+
+.menu-businesses-dropdown-content
+{
+	
+	display:none;
+	position:absolute;
+	left:-200px;
+	background-color:#ffffff;
+	min-width:760px;
+	height:164px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 12px 16px;
+	z-index:1;
+	text-weight:none;
+}
+
+
+.menu-dropdown:hover .menu-abtus-dropdown-content
+{
+	display:block;
+}
+.menu-dropdown:hover .menu-businesses-dropdown-content
+{
+	display:block;
+}
+.menu-dropdown:hover .menu-businesses-dropdown-content .submenu-right
+{
+		float:right;
+}
+
+.menu-dropdown:hover .menu-businesses-dropdown-content .submenu-left
+{
+		float:left;
+		width:600px;
+}
+.menu-dropdown:hover .menu-abtus-dropdown-content .submenu-left
+{
+		float:left;
+		width:300px;
+}
+.menu-dropdown:hover .menu-abtus-dropdown-content .submenu-mid
+{
+		
+		width:100px;
+}
+.menu-dropdown:hover .menu-abtus-dropdown-content .submenu-right
+{
+		float:right;
+}
+
+
+

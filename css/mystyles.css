@@ -1,5 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
+#logo
+{
+
+}
+.header-height
+{
+	
+}
 
 .gr1-header
 {
@@ -7,15 +15,22 @@
 	background-color:#FFFFFF;
 }
 
-.gr1-menu
+.gr1-menu-make-bold
 {
 	
 	font-weight:bold;
+	
+}
+.gr1-menu:hover
+{
+	text-color: #854485;
+	border-bottom:3px solid #854485;
+	
 }
 
 .gr1-carousel-slide
 {
-	height: !100px;
+	padding-top:50px;
 }
 
 .efg-translucent
@@ -118,3 +133,26 @@ width: 640px;
 	padding: 20px;
 	font-size: 16px;
 }
+
+.navbar-custom-height
+{
+
+
+}
+.navbar-default
+{
+	background-color:#ffffff;
+		
+}
+
+#logo
+{
+	position:absolute;
+	top:15px;
+	left:200px;
+}
+.container-pad-top
+{
+	padding-top:50px;	
+}
+
