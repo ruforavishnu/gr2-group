@@ -32,7 +32,7 @@
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	padding: 12px 16px;
 	z-index:1;
-	text-weight:none;
+	font-weight:none;
 }
 
 
@@ -89,8 +89,61 @@
 .submenu-list:hover
 {
 	
-	background-color:#854485;
+	background-color:#c39212;
 	color:#fff;
+}
+
+.navbar-shiftdown
+{
+
+	position:relative;
+	top:50px;
+}
+#logo-and-title
+{
+	position:relative;
+	left:80px;
+	top:0px;
+	
+}
+#logos-title
+{
+
+	position:relative;
+	top:-80px;
+	left:140px;
+	color:#156b9a;
+	font-weight: bold;
+}
+.hamburg-menu-offset
+{
+	position: relative;
+	top:40px;
+}
+@media only screen and (max-width: 900px)
+{
+	#logo-and-title
+	{
+		position:relative;
+		left:20px;
+		top:0px;
+	
+	}
+	#logos-title
+	{
+		font-size:1em;
+	
+	}
+
+}
+
+@media only screen and (max-width: 400px)
+{
+	#logos-title
+	{
+		display:none;
+	
+	}
 }
 
 
