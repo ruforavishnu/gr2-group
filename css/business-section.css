@@ -30,6 +30,14 @@
 
 
 }
+.business-section-area
+{
+	text-align:center;
+	height:350px;
+	
+}
+
+
 @media only screen and (max-width: 1198px)
 {
 	.business-section-separator
@@ -76,9 +84,4 @@
 }
 
 
-.business-section-area
-{
-	text-align:center;
-	
-}
 
