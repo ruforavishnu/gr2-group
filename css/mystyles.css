@@ -103,3 +103,25 @@ footer
 	text-align:center;
 }
 
+.pad-top
+{
+	padding-top:100px;
+}
+.pad-bottom
+{
+	padding-bottom:50px;
+}
+.center-align-text
+{
+	
+	text-align:center;
+}
+.img-center-align
+{
+	position:relative;
+	left:30%;
+}
+.panel {
+    border: none;
+    box-shadow: none;
+}
