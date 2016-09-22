@@ -126,7 +126,26 @@ footer
 .img-center-align
 {
 	position:relative;
-	left:30%;
+	left:30%;  
+
+	
+}
+@media only screen and (max-width: 991px)
+{
+	
+	.img-center-align
+	{
+		position:relative;
+		padding-left:10%;
+		padding-right:10%;
+
+	
+		
+	}
+
+	
+	
+	
 }
 .panel {
     border: none;
