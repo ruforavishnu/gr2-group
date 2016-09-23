@@ -1,11 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
-@import url('https://fonts.googleapis.com/css?family=Helvetica+Neue');
-@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+@import url('https://fonts.googleapis.com/css?family=Tahoma');
+
 p
 {
-	font-family:"Helvetica Neue","Proxima Nova", Helvetica Gotham,  Helvetica, Arial, sans-serif ;
+	font-family:"Tahoma","Proxima Nova", Helvetica Gotham,  Helvetica, Arial, sans-serif ;
 }
 #logo
 {
@@ -159,4 +159,10 @@ footer
 .para-better
 {
 	font-weight:500;	
+}
+.paragraph-justify
+{
+	text-align: justify;
+	text-justify:inter-word;
+
 }
