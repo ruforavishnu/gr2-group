@@ -1,11 +1,27 @@
 // JavaScript Document
 
 $(document).ready(function(){
-  $('#test').on('click',function()
-  {
-	  $('#test').hide(700);
-  })
+	
+	$('#abt-1').hover(function()
+	{
+
+	  $('#submenu-desc').html("<small>With success comes responsibility,so we take care to reinvest in protecting and developing the communities within which we operate. We live and work in the communities where our operations are based and take our responsibilities to society seriously.</small>");
+	 
+	  
+	})
+	
+	$('#abt-2').hover(function()
+	{
+	  $('#submenu-desc').html("<small>We are a team of over 10,000 employees working towards nation building.</small>");
+	})
+	$('#abt-3').hover(function()
+	{
+	  $('#submenu-desc').html("<small>One Organization with one brand - Our new visual identity is designed to help tell the story of integration in a simple and modern style.</small>");
+	})
+	
+ 
 });
+
 
 
 
