@@ -2,6 +2,12 @@
 
 $(document).ready(function(){
 	
+	$('#abt-head').hover(function()
+	{
+		$('#submenu-desc').html("<small>We are Tasaheel. We fabricate an unbelievable future for your brand that makes you feel great.We are the most creative company, giving life to technology with the motto to deliver the products that you will love at the moment you see it.</small>");
+
+	}
+		)
 	$('#abt-1').hover(function()
 	{
 
