@@ -1,11 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
-@import url('https://fonts.googleapis.com/css?family=Tahoma');
+@import url('https://fonts.googleapis.com/css?family=Helvetica&Neue');
 
 p
 {
-	font-family:"Tahoma","Proxima Nova", Helvetica Gotham,  Helvetica, Arial, sans-serif ;
+	font-family:"Helvetica Neue","PT Sans","Tahoma","Proxima Nova", Helvetica Gotham,  Helvetica, Arial, sans-serif ;
 }
 #logo
 {

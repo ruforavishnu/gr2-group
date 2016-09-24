@@ -12,12 +12,14 @@
 	
 	display:none;
 	position:absolute;
-	left:-106px;
+	left:-64px;
 	background-color:#ffffff;
-	min-width:760px;
+	min-width:600px;
+	height:170px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	padding: 12px 0px;
 	z-index:1;
+	border:0px solid #ccc;
 }
 
 .menu-businesses-dropdown-content
@@ -36,63 +38,78 @@
 }
 
 
-.menu-dropdown:hover .menu-abtus-dropdown-content
-{
-	display:block;
-}
-.menu-dropdown:hover .menu-businesses-dropdown-content
-{
-	display:block;
-}
-.menu-dropdown:hover .menu-businesses-dropdown-content .submenu-right
-{
-		float:right;
-}
-
-.menu-dropdown:hover .menu-businesses-dropdown-content .submenu-left
-{
-		float:left;
-		width:600px;
-}
-.menu-dropdown:hover .menu-abtus-dropdown-content .submenu-left
-{
-		float:left;
-		width:170px;
-}
-.menu-dropdown:hover .menu-abtus-dropdown-content .submenu-mid
+@media only screen and (min-width: 768px)
 {
 		
-		width:100px;
-}
-.menu-dropdown:hover .menu-abtus-dropdown-content .submenu-right
-{
-		float:right;
-		padding-right:10px;
-}
-.submenu
-{
-	position:absolute;
-	top:0px;
-}
-.submenu-list
-{
-	padding:10px;
-	border-bottom:1px solid #000;
-    cursor: pointer;
-	transition: background 0.3s;
-}
-.submenu-list:after
-{
+	.menu-dropdown:hover .menu-abtus-dropdown-content
+	{
+		display:block;
+	}
+	.menu-dropdown:hover .menu-businesses-dropdown-content
+	{
+		display:block;
+	}
 	
-}
-
-.submenu-list:hover
-{
+	.menu-dropdown:hover .menu-businesses-dropdown-content .submenu-right
+	{
+			float:right;
+	}
 	
-	background-color:#c39212;
-	color:#fff;
+	.menu-dropdown:hover .menu-businesses-dropdown-content .submenu-left
+	{
+			float:left;
+			width:600px;
+	}
+	.menu-dropdown:hover .menu-abtus-dropdown-content .submenu-left
+	{
+			float:left;
+			width:170px;
+			font-family:"Helvetica Neue","PT Sans","Tahoma","Proxima Nova", Helvetica Gotham,  Helvetica, Arial, sans-serif ;
+	}
+	.menu-dropdown:hover .menu-abtus-dropdown-content .submenu-mid
+	{
+			
+			position:relative;
+			font-family:"Helvetica Neue","PT Sans","Tahoma","Proxima Nova", Helvetica Gotham,  Helvetica, Arial, sans-serif ;
+	
+			left:30%;
+			top:-10px;
+			width:230px;
+	}
+	.menu-dropdown:hover .menu-abtus-dropdown-content .submenu-right
+	{
+			position:relative;
+			left:75%;
+			top:-140px;
+			width:120px;
+	
+	}
+	.submenu
+	{
+		position:absolute;
+		top:0px;
+		padding-left:0px;
+	
+	}
+	.submenu-list
+	{
+		padding:10px;
+		border-bottom:2px solid #ccc;
+		cursor: pointer;
+		transition: background 0.3s;
+	}
+	.submenu-list:after
+	{
+		
+	}
+	
+	.submenu-list:hover
+	{
+		
+		background-color:#c39212;
+		color:#fff;
+	}
 }
-
 .navbar-shiftdown
 {
 
