@@ -1847,6 +1847,12 @@ html {
 .mbr-buttons--center.mbr-buttons--only-links {
   left: 0;
 }
+.mbr-buttons-right-of-form
+{
+  text-align:right;
+  right: 0px;
+  
+}
 .mbr-buttons--right {
   text-align: right;
 }

@@ -1,6 +1,32 @@
 // JavaScript Document
 
 $(document).ready(function(){
+
+
+	/**************Submit form*************/
+
+	$('#submit').click(function()
+
+	{
+		var cli_name = $('#uname').val();
+		var cli_email = $('#uemail').val();
+		var cli_phone = $('#uphone').val();
+
+		console.log('name:'+cli_name);
+		console.log('email:'+cli_email);
+		console.log('phone:'+cli_phone);
+
+
+		
+	})
+
+
+	/***************************************/
+
+
+
+
+
 	
 	$('#abt-head').hover(function()
 	{
