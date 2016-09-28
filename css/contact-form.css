@@ -24,8 +24,8 @@ h1 {
 }
 
 form {
-   max-width: 600px;
-   text-align: center;
+   /*max-width: 600px;*/
+      text-align: center;
    margin: 20px auto;
   
   input, textarea {

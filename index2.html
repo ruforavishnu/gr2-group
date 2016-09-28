@@ -521,7 +521,7 @@ We help companies to achieve their business goals and objectives, while assuring
                             <h2 class="mbr-header__text">Careers</h2>
                         </div>
                         <div ></div>
-                        <form   id="form" name="form" method="post" enctype="multipart/form-data" action="sendgodaddyemail.php">
+                        <form   id="form" name="form">
                             <input type="hidden" value="" data-form-email="true">
                             <div class="form-group">
                                 <input type="text" class="form-control" id="uname" name="username" required="" placeholder="Name*" data-form-field="Name">
@@ -538,11 +538,24 @@ We help companies to achieve their business goals and objectives, while assuring
                                 <input class="form-control" type="file" name="fileToUpload" placeholder="Upload Resume" id="fileToUpload">
                             </div>
                             
-                         <div class="mbr-buttons "><button id="submit"  class="mbr-buttons__btn btn btn-lg btn-warning btn--align-right">Submit</button></div> 
+                         
                         </form>
-                        
+                        <div class="mbr-buttons "><button id="submit"  class="mbr-buttons__btn btn btn-lg btn-warning btn--align-right">Submit</button></div> 
+<hr>
 
-                      
+                        <form id="Form1" method="post" role="form" enctype="multipart/form-data">
+                        <input type="hidden" name="MAX_FILE_SIZE" value="262144" />
+
+                        <div class="input-group">
+                        <input type="file" class="form-control input-sm" name="fileToUpload" id="fileToUpload" />
+                        <span class="input-group-btn">
+                        <button type="submit" class="btn btn-primary btn-sm" id="buttonForm">Upload</button>
+                        </span>
+                        </div>                      
+                        </form>
+                        <img id="loading" src="loading.gif" />
+                        <div id="result"></div>
+                        <div class="text-muted" id="message"></div> 
 
 
                         
@@ -553,6 +566,60 @@ We help companies to achieve their business goals and objectives, while assuring
                         </script>
                     </div>
                 </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<section class="mbr-section mbr-section--relative mbr-section--fixed-size"  style="background-color: rgb(239, 239, 239);">
+    
+    <div class="mbr-section__container mbr-section__container--std-padding container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2" data-form-type="formoid">
+                        <div class="mbr-header mbr-header--center mbr-header--std-padding">
+                            <h2 class="mbr-header__text">Careers</h2>
+                        </div>
+                        <div ></div>
+                        <form   id="form" name="form">
+                            <input type="hidden" name="MAX_FILE_SIZE" value="262144" />
+                            <input type="hidden" value="" data-form-email="true">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="uname" name="username" required="" placeholder="Name*" data-form-field="Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="uemail" name="email" required="" placeholder="Email*" data-form-field="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="form-control" id = "uphone" name="phone" placeholder="Phone" data-form-field="Phone">
+                            </div>
+                            <label>Upload Resume</label>
+                            <div class="input-group">
+                            <input type="file" class="form-control input-sm" name="fileToUpload" id="fileToUpload" />
+                            <span class="input-group-btn">
+                            <button type="submit" class="btn btn-primary btn-sm" id="buttonForm">Upload</button>
+                            </span>
+                            </div>   
+                            <div class="mbr-buttons "><button id="submit"  class="mbr-buttons__btn btn btn-lg btn-warning btn--align-right">Submit</button></div> 
+
+                            
+                            
+                         
+                        </form>
+                        <img id="loading" src="loading.gif" />
+                        <div id="result"></div>
+                        <div class="text-muted" id="message"></div> 
+
+                        
+<hr>
+
+                       
+                        
+                     
+                    </div>
+                </div>
+                
             </div>
         </div>
     </div>

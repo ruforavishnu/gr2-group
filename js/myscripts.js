@@ -16,8 +16,25 @@ $(document).ready(function(){
 		console.log('email:'+cli_email);
 		console.log('phone:'+cli_phone);
 
-
 		
+/*
+		$.post("sendgodaddyemail.php",
+
+				{name: cli_name,
+				 email :cli_email,
+				 phone: cli_phone,
+			 	 file:	 $('input[name=fileToUpload]').fieldValue();
+				},
+				function(data,status)
+				{
+					
+					console.log('status:'+status);
+					console.log('data:'+data);
+				}
+			);
+*/
+
+		console.log('complete');
 	})
 
 
